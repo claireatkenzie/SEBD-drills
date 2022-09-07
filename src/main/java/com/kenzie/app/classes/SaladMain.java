@@ -7,20 +7,19 @@ public class SaladMain {
 
     // Task 1 - create a class that holds a base, toppings, and dressing for a salad
     // Create a method within Salad that limits how many cups of dressing can be added (2 cups)
-    // Create a method within Salad that limits the number of toppings to 6
 
 
     public static void makePuristSalad() {
         // Base - leafy green
         // Topping - crouton
         // Dressing - caesar
+
     }
 
     public static void makeTrueNeutralSalad() {
         // Base - fruit
         // Topping - none
         // Dressing - none
-
     }
 
     public static void makeRadicalSalad() {
@@ -30,10 +29,10 @@ public class SaladMain {
     }
 
     public static void main(String[] args) {
-
+        makePuristSalad();
+        makeRadicalSalad();
+        makeTrueNeutralSalad();
     }
-
-
 }
 
 
