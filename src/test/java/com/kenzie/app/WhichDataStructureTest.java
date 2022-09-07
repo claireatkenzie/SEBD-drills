@@ -1,7 +1,6 @@
 package com.kenzie.app;
 
 
-import com.kenzie.app.datastructures.WhichDataStructure;
 import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;

@@ -7,7 +7,6 @@ import java.util.HashMap;
 public class WhichDataStructure {
     // DataStructureClass <Type(s)> name = new DataStructureClass<>();
 
-
     /**************************************************************************************
      * Write the test first to make sure the following is returned from this method
      * MONDAY TUESDAY WEDNESDAY THURSDAY FRIDAY SATURDAY SUNDAY
@@ -39,7 +38,7 @@ public class WhichDataStructure {
         dayToAlarmTimeLookUp.put("TUESDAY", 7);
         dayToAlarmTimeLookUp.put("WEDNESDAY", 8);
         dayToAlarmTimeLookUp.put("THURSDAY", 7);
-        dayToAlarmTimeLookUp.put("FRIDAY", 9);
+        dayToAlarmTimeLookUp.put("FRIDAY", 99);
         dayToAlarmTimeLookUp.put("Saturday", 2);
         dayToAlarmTimeLookUp.put("Sunday", 10);
 
