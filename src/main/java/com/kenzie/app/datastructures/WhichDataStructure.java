@@ -13,6 +13,19 @@ public class WhichDataStructure {
      * After, debug this method
      ***************************************************************************************/
     public static ArrayList<String> createDaysOfWeek() {
+        ArrayList<String> daysOfWeek = new ArrayList<>();
+        daysOfWeek.add("MONDAY");
+        daysOfWeek.add("TUESDAY");
+        daysOfWeek.add("WEDNESDAY");
+        daysOfWeek.add("THURSDAY");
+        daysOfWeek.add("FRIDAY");
+        daysOfWeek.add("SATURDAY");
+        daysOfWeek.add("SUNDAY");
+        return daysOfWeek;
+    }
+
+
+    public static ArrayList<String> createDaysOfWeek2() {
 
         ArrayList<String> daysOfWeek = new ArrayList<>();
 
@@ -26,6 +39,17 @@ public class WhichDataStructure {
 
         return daysOfWeek;
     }
+
+
+
+
+
+
+
+
+
+
+
 
     /**************************************************************************************
      * Alter this method to return the day to alarm lookup map
