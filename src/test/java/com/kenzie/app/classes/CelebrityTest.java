@@ -12,7 +12,6 @@ class CelebrityTest {
         Celebrity hanSolo = new Celebrity();
         
         for(int i = 0; i < 10; i++) {
-            hanSolo.addAttire("shirts");
         }
 
         String item = "socks";
@@ -21,10 +20,8 @@ class CelebrityTest {
         boolean expected = false;
 
        // Call the method, save your actual
-        boolean actual = hanSolo.addAttire(item);
 
         // Assert that expected equals actual
-        assert(actual == expected);
     }
 
 }
