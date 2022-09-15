@@ -1,16 +1,14 @@
 package com.kenzie.app.classes;
 
+import com.kenzie.app.classes.celebrity.Celebrity;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class CelebrityTest {
 
     @Test
     public void testAddMoreThan10Clothing() {
        // Prepare input parameters
-        Celebrity hanSolo = new Celebrity();
-        
+
         for(int i = 0; i < 10; i++) {
         }
 
