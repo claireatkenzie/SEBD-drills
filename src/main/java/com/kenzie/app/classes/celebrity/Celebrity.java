@@ -1,19 +1,21 @@
 package com.kenzie.app.classes.celebrity;
 
 public class Celebrity {
+    // if it's final, maybe don't need to
+    // unless you want to hide the data
+    // static getter, nonstatic getter on the same data
+    static final boolean IS_FAMOUS = true;
 
+    boolean isRich = true;
     protected String filmGuildName;
-    protected int age;
+    protected final int birthday;
 
     // preview pane
     protected String[] episodes = new String[3];
 
-    public Celebrity() {
-
-    }
-
-    public Celebrity(String filmGuildName) {
+    public Celebrity(String filmGuildName, int birthday) {
         this.filmGuildName = filmGuildName;
+        this.birthday = birthday;
     }
 
     public String getFilmGuildName() {

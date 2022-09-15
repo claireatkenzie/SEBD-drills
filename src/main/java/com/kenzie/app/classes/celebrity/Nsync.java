@@ -1,6 +1,6 @@
 package com.kenzie.app.classes.celebrity;
 
-public class Nsync extends Celebrity {
+public class Nsync  {
     protected String[] actorNames;
     /*
     We get them automatically
