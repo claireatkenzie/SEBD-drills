@@ -1,20 +1,16 @@
 package com.kenzie.app.classes.singletons;
 
-// Hall Pass
+
 public class SingletonPattern {
 
-    // 1. Hall Pass behind the teacher's desk
+    // 1 private ONE instance that gets used by the entire code base
     private static SingletonPattern instance;
 
-    // ONLY the teacher can create the hall pass
-    // Students cannot forge one
-    // RFID
+    // 2 private constructor
     private SingletonPattern() {
-        // Initialize stuff
     }
 
-
-    // 3. Teacher literally giving out the hallpass at the teacher's discretion
+    // 3 getInstance method to return the one true source
     public static SingletonPattern getInstance(){
         if(instance == null) {
             instance = new SingletonPattern();
@@ -22,11 +18,16 @@ public class SingletonPattern {
         return instance;
     }
 
-    // 4. Regular methods
-    // Walk down hall
-    // Validate hall pass
-    // loseHallPass
+    // 4 Methods forever
     public void doSomething (String message) {
 
+    }
+
+    public int doAnotherThing() {
+       return -1;
+    }
+
+    private boolean whateverThing() {
+        return true;
     }
 }
